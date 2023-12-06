@@ -1,0 +1,116 @@
+body {
+    
+    font-family: 'Courier New', Courier, monospace;
+    padding: 60px;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.in-flex {
+    flex: 1;
+    min-width: 250px;
+}
+
+.in-flex:first-child {
+    margin-bottom: 0%;
+
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.main-section {
+   
+    padding:60px 0;
+}
+
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border-radius: 1em;
+  }
+
+
+
+
+ul {
+    list-style:none;
+    padding: 0;
+    margin:0;
+  }
+  
+ 
+  
+  label {
+    text-align: left;
+  }
+  
+  input,
+  textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+  
+  
+
+  .button {
+     padding-left: 90px;
+     flex: 1 auto;
+  }
+  
+  button {
+    margin-left: 0.5em;
+  }
+
+  form {
+    text-align: left;
+  }
+
+
+img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    
+    width: 1500px;
+    min-height: 505px;
+    padding: 1rem;
+    object-fit: cover;
+    
+}
+
+
+footer {
+    text-align: center;
+    background-color:rgb(12, 231, 220);
+    color: black;
+}
+
+
+p {
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    color: brown;
+}
+
+h2 {
+    text-align: center;
+}
